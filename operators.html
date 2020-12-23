@@ -12,12 +12,17 @@
         var operation = "divide";
         var result = 0;
 
+
+        function add(a, b) {
+            return a + b;
+        }
+
         if (input1 == 0 || input2 == 0) {
             console.log("Enter a value greater than 0");
         } else {
 
             if (operation == 'add') {
-                result = input1 + input2;
+                result = input1, input2;
             } else if (operation == "subtract") {
                 result = input1 - input2;
             } else if (operation == "multiply") {
